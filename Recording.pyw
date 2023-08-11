@@ -13,7 +13,7 @@ class ScreenRecorderApp:
         self.is_recording = False
         self.output = None
         self.save_path = ""
-        self.selected_fps = tk.StringVar(value="30")  # Default FPS
+        self.selected_fps = tk.StringVar(value="20")  # Default FPS
 
         self.root.geometry("350x250")  # Set the window size
 
